@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Binaries & Tunnels
+*.exe
+cloudflared.exe
+
+# Database & Local Stores
+# placement.db can be generated with python seed_data.py
+*.db
+*.sqlite3
+
+# Environment & Secrets
+.env
+.env.local
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
